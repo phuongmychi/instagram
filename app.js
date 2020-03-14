@@ -1474,7 +1474,7 @@
                                     message: e || "Chúng tôi sử dụng",
                                     dismiss: "Đồng ý",
                                     link: "cookies",
-                                    href: "/privacy.html"
+                                    href: "/cookie.html"
                                 }
                             })
                         }
