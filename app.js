@@ -1276,9 +1276,9 @@
                             p1: "Chỉ cần dán link hoặc tên người dùng , bạn có thể tải xuống 1 cách dễ dàng",
                             download: "Tải xuống",
                             history: "Lịch sử",
-                            emptyHistory: "Your download history will appear here",
+                            emptyHistory: "Lịch sử tải xuống của bạn ở đây: ",
                             isPrivate: "Tài khoản này là riêng tư",
-                            ccMessage: "We use",
+                            ccMessage: "Chúng tôi sử dụng",
                             home: "Trang chủ",
                             contact: "Liên hệ",
                             privacy: "Chính sách quyền riêng tư",
@@ -1471,10 +1471,10 @@
                             window.cookieconsent.initialise({
                                 container: this.container,
                                 content: {
-                                    message: e || "We use",
-                                    dismiss: "OK",
+                                    message: e || "Chúng tôi sử dụng",
+                                    dismiss: "Đồng ý",
                                     link: "cookies",
-                                    href: "/privacy"
+                                    href: "/privacy.html"
                                 }
                             })
                         }
@@ -1565,7 +1565,7 @@
                             ])
                         }), Te("link", {
                             rel: "alternate",
-                            href: "https://phuongmychi.io/?hl=es",
+                            href: "https://phuongmychi.github.io/hl=es",
                             hrefLang: "es",
                             className: h.a.dynamic([
                                 ["2301534346", [o.black, o.white, o.black, o.white, o.gray, o.gray, o.gray]]
@@ -2083,7 +2083,7 @@
                                 allow: "Allow cookies",
                                 deny: "Decline",
                                 link: "Learn more",
-                                href: "https://www.cookiesandyou.com",
+                                href: "https://phuongmychi.github.io/cookie.html",
                                 close: "&#x274c;",
                                 target: "_blank",
                                 policy: "Cookie Policy"
