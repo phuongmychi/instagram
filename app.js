@@ -1403,48 +1403,48 @@
                         href: "/privacy.html"
                     }, Oe("a", {
                         className: h.a.dynamic([
-                            ["1455347606", [n.darkGray, o.size.small, n.gray, n.gray, n.darkGray, o.size.medium]]
+                            ["1455347606", [n.darkGray, o.size.small, n.gray, n.gray, n.darkGray, o.size.small]]
                         ])
                     }, i("privacy"))), Oe("a", {
                         href: "mailto:lovephuongmychi@gmail.com",
                         className: h.a.dynamic([
-                            ["1455347606", [n.darkGray, o.size.small, n.gray, n.gray, n.darkGray, o.size.medium]]
+                            ["1455347606", [n.darkGray, o.size.small, n.gray, n.gray, n.darkGray, o.size.small]]
                         ])
                     }, i("contact"))), Oe("ul", {
                         className: h.a.dynamic([
-                            ["1455347606", [n.darkGray, o.size.small, n.gray, n.gray, n.darkGray, o.size.medium]]
+                            ["1455347606", [n.darkGray, o.size.small, n.gray, n.gray, n.darkGray, o.size.small]]
                         ]) + " social"
                     }, Oe("li", {
                         className: h.a.dynamic([
-                            ["1455347606", [n.darkGray, o.size.small, n.gray, n.gray, n.darkGray, o.size.medium]]
+                            ["1455347606", [n.darkGray, o.size.small, n.gray, n.gray, n.darkGray, o.size.small]]
                         ])
                     }, Oe("a", {
                         href: "https://twitter.com/lovephuongmychi",
                         target: "_blank",
                         rel: "noopener noreferrer",
                         className: h.a.dynamic([
-                            ["1455347606", [n.darkGray, o.size.small, n.gray, n.gray, n.darkGray, o.size.medium]]
+                            ["1455347606", [n.darkGray, o.size.small, n.gray, n.gray, n.darkGray, o.size.small]]
                         ]) + " twitter"
                     }, Oe(we, {
                         width: 16,
                         height: 16
                     }))), Oe("li", {
                         className: h.a.dynamic([
-                            ["1455347606", [n.darkGray, o.size.small, n.gray, n.gray, n.darkGray, o.size.medium]]
+                            ["1455347606", [n.darkGray, o.size.small, n.gray, n.gray, n.darkGray, o.size.small]]
                         ])
                     }, Oe("a", {
                         href: "https://www.instagram.com/phuongmychi/",
                         target: "_blank",
                         rel: "noopener noreferrer",
                         className: h.a.dynamic([
-                            ["1455347606", [n.darkGray, o.size.small, n.gray, n.gray, n.darkGray, o.size.medium]]
+                            ["1455347606", [n.darkGray, o.size.small, n.gray, n.gray, n.darkGray, o.size.small]]
                         ]) + " phuongmychi"
                     }, Oe(xe, {
                         width: 16,
                         height: 16
                     })))), Oe("span", {
                         className: h.a.dynamic([
-                            ["1455347606", [n.darkGray, o.size.small, n.gray, n.gray, n.darkGray, o.size.medium]]
+                            ["1455347606", [n.darkGray, o.size.small, n.gray, n.gray, n.darkGray, o.size.small]]
                         ]) + " copyright"
                     }, "Copyright \xa9", Se), Oe(h.a, {
                         id: "1455347606",
