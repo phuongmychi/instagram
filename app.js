@@ -1280,7 +1280,7 @@
                             isPrivate: "Tài khoản này là riêng tư",
                             ccMessage: "Chúng tôi sử dụng",
                             home: "Trang chủ",
-                            contact: "Liên hệ",
+                            term: "Điều khoản sử dụng",
                             privacy: "Chính sách quyền riêng tư",
                             aria: {
                                 input: "Dán link hình ảnh instagram hoặc username vào đây"
@@ -1395,7 +1395,7 @@
                             ["1455347606", [n.darkGray, o.size.small, n.gray, n.gray, n.darkGray, o.size.small]]
                         ]) + " navigation"
                     }, Oe("a", {
-                        href: "/",
+                        href: "/download-image-instagram.html",
                         className: h.a.dynamic([
                             ["1455347606", [n.darkGray, o.size.small, n.gray, n.gray, n.darkGray, o.size.small]]
                         ])
@@ -1406,11 +1406,11 @@
                             ["1455347606", [n.darkGray, o.size.small, n.gray, n.gray, n.darkGray, o.size.small]]
                         ])
                     }, i("privacy"))), Oe("a", {
-                        href: "mailto:lovephuongmychi@gmail.com",
+                        href: "/term-use-instagram.html",
                         className: h.a.dynamic([
                             ["1455347606", [n.darkGray, o.size.small, n.gray, n.gray, n.darkGray, o.size.small]]
                         ])
-                    }, i("contact"))), Oe("ul", {
+                    }, i("term"))), Oe("ul", {
                         className: h.a.dynamic([
                             ["1455347606", [n.darkGray, o.size.small, n.gray, n.gray, n.darkGray, o.size.small]]
                         ]) + " social"
