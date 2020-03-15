@@ -1253,7 +1253,7 @@
                             }))), Ae(ke, null)), Ae(u.a, {
                                 id: "197309663",
                                 dynamic: [r.gray, a.weight.light]
-                            }, [".media.__jsx-style-dynamic-selector{padding:0 20px;}", ".description.__jsx-style-dynamic-selector{padding:0 20px;text-align:center;}", "h1.__jsx-style-dynamic-selector{color:".concat(r.gray, ";font-size:0.9rem;font-weight:").concat(a.weight.light, ";line-height:1.5;margin-top:0;}"), ".ads.__jsx-style-dynamic-selector{margin-bottom:20px;}", "@media (min-width:1024px){.description.__jsx-style-dynamic-selector{margin:30px 0;}}"]))
+                            }, [".media.__jsx-style-dynamic-selector{padding:0 20px;}", ".description.__jsx-style-dynamic-selector{padding:0 20px;text-align:center;font-size:20px}", "h1.__jsx-style-dynamic-selector{color:".concat(r.gray, ";font-size:30px;font-weight:bold;color:green").concat(a.weight.light, ";line-height:1.5;margin-top:0;}"), ".ads.__jsx-style-dynamic-selector{margin-bottom:20px;}", "@media (min-width:1024px){.description.__jsx-style-dynamic-selector{margin:30px 0;font-size:15px;}}"]))
                         }
                     }]), t
                 }(l.PureComponent),
