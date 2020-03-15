@@ -510,9 +510,10 @@
                             }, ne("button", {
                                 type: "submit",
                                 onClick: this.handleClick,
-                                className: u.a.dynamic([
-                                    ["640737346", [t.white, n.button, t.gray, n.buttonHover, t.black]]
-                                ])
+                                className : "btn btn-primary btn-sm",
+                                // className: u.a.dynamic([
+                                //     ["640737346", [t.white, n.button, t.blue, n.buttonHover, t.black]]
+                                // ])
                             }, this.props.t("download")), ne(u.a, {
                                 id: "640737346",
                                 dynamic: [t.white, n.button, t.gray, n.buttonHover, t.black]
