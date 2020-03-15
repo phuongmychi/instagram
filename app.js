@@ -1441,7 +1441,7 @@
                         rel: "noopener noreferrer",
                         className: h.a.dynamic([
                             ["1455347606", [n.darkGray, o.size.small, n.gray, n.gray, n.darkGray, o.size.small]]
-                        ]) + " youtube"
+                        ]) + " youtube_phuongmychi"
                     }, Oe(we, {
                         width: 16,
                         height: 16
@@ -1470,7 +1470,7 @@
                         rel: "noopener noreferrer",
                         className: h.a.dynamic([
                             ["1455347606", [n.darkGray, o.size.small, n.gray, n.gray, n.darkGray, o.size.small]]
-                        ]) + " instagram"
+                        ]) + " instagram_phuongmychi"
                     }, Oe(xe, {
                         width: 16,
                         height: 16
@@ -1481,7 +1481,7 @@
                     }, "Copyright \xa9 ", Se," Phuong My Chi Entertainment"), Oe(h.a, {
                         id: "1455347606",
                         dynamic: [n.darkGray, o.size.small, n.gray, n.gray, n.darkGray, o.size.small]
-                    }, ["footer.__jsx-style-dynamic-selector{padding:0 20px 30px 20px;text-align:center;margin-top:15%}", ".navigation.__jsx-style-dynamic-selector{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;}", ".navigation.__jsx-style-dynamic-selector a.__jsx-style-dynamic-selector{color:".concat(n.darkGray, ";font-size:").concat(o.size.small, ";margin:0 5px;-webkit-text-decoration:none;text-decoration:none;text-transform:uppercase;-webkit-transition:all 0.2s ease;transition:all 0.2s ease;}"), ".navigation.__jsx-style-dynamic-selector a.__jsx-style-dynamic-selector:hover{color:".concat(n.gray, ";}"), ".social.__jsx-style-dynamic-selector{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;list-style-type:none;margin:30px 0 40px 0;padding:0;}", ".youtube.__jsx-style-dynamic-selector,.instagram.__jsx-style-dynamic-selector{fill:".concat(n.gray, ";margin:0 10px;color:blue;}"), ".copyright.__jsx-style-dynamic-selector{color:".concat(n.darkGray, ";font-size:12px").concat(o.size.small, ";}")]))
+                    }, ["footer.__jsx-style-dynamic-selector{padding:0 20px 30px 20px;text-align:center;margin-top:15%}", ".navigation.__jsx-style-dynamic-selector{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;}", ".navigation.__jsx-style-dynamic-selector a.__jsx-style-dynamic-selector{color:".concat(n.darkGray, ";font-size:").concat(o.size.small, ";margin:0 5px;-webkit-text-decoration:none;text-decoration:none;text-transform:uppercase;-webkit-transition:all 0.2s ease;transition:all 0.2s ease;}"), ".navigation.__jsx-style-dynamic-selector a.__jsx-style-dynamic-selector:hover{color:".concat(n.gray, ";}"), ".social.__jsx-style-dynamic-selector{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;list-style-type:none;margin:30px 0 40px 0;padding:0;}", ".youtube_phuongmychi.__jsx-style-dynamic-selector,.instagram_phuongmychi.__jsx-style-dynamic-selector{fill:".concat(n.gray, ";margin:0 10px;color:blue;}"), ".copyright.__jsx-style-dynamic-selector{color:".concat(n.darkGray, ";font-size:12px").concat(o.size.small, ";}")]))
                 },
                 Ee = Object(O.b)()((function(e) {
                     return Oe(S.a.Consumer, null, (function(t) {
