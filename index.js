@@ -376,7 +376,7 @@
                         key: "componentDidMount",
                         value: function() {
                             window.adsbygoogle = window.adsbygoogle || [], window.adsbygoogle.push({
-                                google_ad_client: "ca-pub-4789675953580708",
+                                google_ad_client: "ca-pub-5555",
                                 enable_page_level_ads: !0
                             })
                         }
@@ -406,7 +406,7 @@
                                 t = e.dataAdFormat,
                                 n = e.dataAdLayoutKey,
                                 r = e.dataAdClient,
-                                a = void 0 === r ? "ca-pub-4789675953555580708" : r,
+                                a = void 0 === r ? "ca-pub-4" : r,
                                 o = e.dataAdSlot;
                             return X("ins", {
                                 className: "adsbygoogle",
@@ -550,8 +550,8 @@
                                 crossOrigin: "anonymous",
                                 srcSet: a,
                                 src: t,
-                                alt: n,
-                                className: "jsx-3536476505"
+                                alt: n ,
+                                className: "img-thumbnail"
                             }), oe(ae, Object(y.a)({
                                 src: t
                             }, this.props)), oe(u.a, {
@@ -617,6 +617,7 @@
                     xmlns: "http://www.w3.org/2000/svg",
                     width: 24,
                     height: 24,
+                    fill:"#E60A28",
                     viewBox: "0 0 24 24"
                 }, e), ue("title", null, "Xóa"), ue("path", {
                     d: "M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
