@@ -1400,14 +1400,14 @@
                             ["1455347606", [n.darkGray, o.size.small, n.gray, n.gray, n.darkGray, o.size.small]]
                         ])
                     }, i("home")), Oe(me.a, {
-                        href: "/privacy.html",
-                        target: "_blank",
+                        href: "https://phuongmychi.github.io/privacy.html",
                     }, Oe("a", {
+                      target: "_blank",
                         className: h.a.dynamic([
                             ["1455347606", [n.darkGray, o.size.small, n.gray, n.gray, n.darkGray, o.size.small]]
                         ])
                     }, i("privacy"))), Oe("a", {
-                        href: "/instagram/term-use-instagram.html",
+                        href: "https://phuongmychi.github.io/instagram/term-use-instagram.html",
                         target: "_blank",
                         className: h.a.dynamic([
                             ["1455347606", [n.darkGray, o.size.small, n.gray, n.gray, n.darkGray, o.size.small]]
