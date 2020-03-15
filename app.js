@@ -1358,9 +1358,10 @@
                     xmlns: "http://www.w3.org/2000/svg",
                     width: 24,
                     height: 24,
+                    fill:"#FC0C2D",
                     viewBox: "0 0 24 24"
                 }, e), be("title", null, "Youtube Phuong My Chi"), be("path", {
-                    d: "M23.495 6.205a3.007 3.007 0 0 0-2.088-2.088c-1.87-.501-9.396-.501-9.396-.501s-7.507-.01-9.396.501A3.007 3.007 0 0 0 .527 6.205a31.247 31.247 0 0 0-.522 5.805 31.247 31.247 0 0 0 .522 5.783 3.007 3.007 0 0 0 2.088 2.088c1.868.502 9.396.502 9.396.502s7.506 0 9.396-.502a3.007 3.007 0 0 0 2.088-2.088 31.247 31.247 0 0 0 .5-5.783 31.247 31.247 0 0 0-.5-5.805zM9.609 15.601V8.408l6.264 3.602z"
+                  d :"M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"
                 }))
             }
             var ke = d.a.createElement;
@@ -1370,6 +1371,7 @@
                     xmlns: "http://www.w3.org/2000/svg",
                     width: 24,
                     height: 24,
+                    fill :"#3C5A99",
                     viewBox: "0 0 24 24"
                 }, e), be("title", null, "Facebook Phuong My Chi"), be("path", {
                   d : "M22.675 0h-21.35c-.732 0-1.325.593-1.325 1.325v21.351c0 .731.593 1.324 1.325 1.324h11.495v-9.294h-3.128v-3.622h3.128v-2.671c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.795.143v3.24l-1.918.001c-1.504 0-1.795.715-1.795 1.763v2.313h3.587l-.467 3.622h-3.12v9.293h6.116c.73 0 1.323-.593 1.323-1.325v-21.35c0-.732-.593-1.325-1.325-1.325z"
@@ -1377,14 +1379,12 @@
             }
             var ke = d.a.createElement;
 
-
-
-
             function xe(e) {
                 return ke("svg", Object(o.a)({
                     xmlns: "http://www.w3.org/2000/svg",
                     width: 32,
                     height: 32,
+                    fill:"#9D1CB7",
                     viewBox: "0 0 32 32"
                 }, e), ke("title", null, "Instagram Phuong My Chi"), ke("path", {
                     d: "M16 2.881c4.275 0 4.781 0.019 6.462 0.094 1.563 0.069 2.406 0.331 2.969 0.55 0.744 0.288 1.281 0.638 1.837 1.194 0.563 0.563 0.906 1.094 1.2 1.838 0.219 0.563 0.481 1.412 0.55 2.969 0.075 1.688 0.094 2.194 0.094 6.463s-0.019 4.781-0.094 6.463c-0.069 1.563-0.331 2.406-0.55 2.969-0.288 0.744-0.637 1.281-1.194 1.837-0.563 0.563-1.094 0.906-1.837 1.2-0.563 0.219-1.413 0.481-2.969 0.55-1.688 0.075-2.194 0.094-6.463 0.094s-4.781-0.019-6.463-0.094c-1.563-0.069-2.406-0.331-2.969-0.55-0.744-0.288-1.281-0.637-1.838-1.194-0.563-0.563-0.906-1.094-1.2-1.837-0.219-0.563-0.481-1.413-0.55-2.969-0.075-1.688-0.094-2.194-0.094-6.463s0.019-4.781 0.094-6.463c0.069-1.563 0.331-2.406 0.55-2.969 0.288-0.744 0.638-1.281 1.194-1.838 0.563-0.563 1.094-0.906 1.838-1.2 0.563-0.219 1.412-0.481 2.969-0.55 1.681-0.075 2.188-0.094 6.463-0.094zM16 0c-4.344 0-4.887 0.019-6.594 0.094-1.7 0.075-2.869 0.35-3.881 0.744-1.056 0.412-1.95 0.956-2.837 1.85-0.894 0.888-1.438 1.781-1.85 2.831-0.394 1.019-0.669 2.181-0.744 3.881-0.075 1.713-0.094 2.256-0.094 6.6s0.019 4.887 0.094 6.594c0.075 1.7 0.35 2.869 0.744 3.881 0.413 1.056 0.956 1.95 1.85 2.837 0.887 0.887 1.781 1.438 2.831 1.844 1.019 0.394 2.181 0.669 3.881 0.744 1.706 0.075 2.25 0.094 6.594 0.094s4.888-0.019 6.594-0.094c1.7-0.075 2.869-0.35 3.881-0.744 1.050-0.406 1.944-0.956 2.831-1.844s1.438-1.781 1.844-2.831c0.394-1.019 0.669-2.181 0.744-3.881 0.075-1.706 0.094-2.25 0.094-6.594s-0.019-4.887-0.094-6.594c-0.075-1.7-0.35-2.869-0.744-3.881-0.394-1.063-0.938-1.956-1.831-2.844-0.887-0.887-1.781-1.438-2.831-1.844-1.019-0.394-2.181-0.669-3.881-0.744-1.712-0.081-2.256-0.1-6.6-0.1v0z"
@@ -1478,10 +1478,10 @@
                         className: h.a.dynamic([
                             ["1455347606", [n.darkGray, o.size.small, n.gray, n.gray, n.darkGray, o.size.small]]
                         ]) + "copyright"
-                    }, "Copyright \xa9 ", Se," Phuong My Chi Entertainment"), Oe(h.a, {
+                    }, "Copyright \xa9 ", Se," Phuong My Chi Entertainment, All rights reserved"), Oe(h.a, {
                         id: "1455347606",
                         dynamic: [n.darkGray, o.size.small, n.gray, n.gray, n.darkGray, o.size.small]
-                    }, ["footer.__jsx-style-dynamic-selector{padding:0 20px 30px 20px;text-align:center;margin-top:15%}", ".navigation.__jsx-style-dynamic-selector{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;}", ".navigation.__jsx-style-dynamic-selector a.__jsx-style-dynamic-selector{color:".concat(n.darkGray, ";font-size:").concat(o.size.small, ";margin:0 5px;-webkit-text-decoration:none;text-decoration:none;text-transform:uppercase;-webkit-transition:all 0.2s ease;transition:all 0.2s ease;}"), ".navigation.__jsx-style-dynamic-selector a.__jsx-style-dynamic-selector:hover{color:".concat(n.gray, ";}"), ".social.__jsx-style-dynamic-selector{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;list-style-type:none;margin:30px 0 40px 0;padding:0;}", ".youtube_phuongmychi.__jsx-style-dynamic-selector,.instagram_phuongmychi.__jsx-style-dynamic-selector{fill:".concat(n.gray, ";margin:0 10px;color:blue;}"), ".copyright.__jsx-style-dynamic-selector{color:".concat(n.darkGray, ";font-size:12px").concat(o.size.small, ";}")]))
+                    }, ["footer.__jsx-style-dynamic-selector{padding:0 20px 30px 20px;text-align:center;margin-top:15%}", ".navigation.__jsx-style-dynamic-selector{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;}", ".navigation.__jsx-style-dynamic-selector a.__jsx-style-dynamic-selector{color:".concat(n.darkGray, ";font-size:").concat(o.size.small, ";margin:0 5px;-webkit-text-decoration:none;text-decoration:none;text-transform:uppercase;-webkit-transition:all 0.2s ease;transition:all 0.2s ease;}"), ".navigation.__jsx-style-dynamic-selector a.__jsx-style-dynamic-selector:hover{color:".concat(n.gray, ";}"), ".social.__jsx-style-dynamic-selector{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;list-style-type:none;margin:30px 0 40px 0;padding:0;}", ".youtube_phuongmychi.__jsx-style-dynamic-selector,.instagram_phuongmychi.__jsx-style-dynamic-selector{fill:".concat(n.gray, ";margin:0 10px;color:blue;}"), ".copyright.__jsx-style-dynamic-selector{color:".concat(n.darkGray, ";font-size:10px").concat(o.size.small, ";}")]))
                 },
                 Ee = Object(O.b)()((function(e) {
                     return Oe(S.a.Consumer, null, (function(t) {
