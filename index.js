@@ -616,10 +616,10 @@
             function le(e) {
                 return ue("svg", Object(y.a)({
                     xmlns: "http://www.w3.org/2000/svg",
-                    width: 24,
-                    height: 24,
+                    width: 32,
+                    height: 32,
                     fill:"#E60A28",
-                    viewBox: "0 0 24 24"
+                    viewBox: "0 0 32 32"
                 }, e), ue("title", null, "Xóa"), ue("path", {
                     d: "M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
                 }))
@@ -909,7 +909,7 @@
                             }, n("emptyHistory"))), _e(u.a, {
                                 id: "1538540994",
                                 dynamic: [r.colors.gray, r.typography.size.small]
-                            }, [".message.__jsx-style-dynamic-selector{color:".concat(r.colors.gray, ";font-size:").concat(r.typography.size.small, ";padding:0 20px;text-align:center;}"), "@media (min-width:1024px){.message.__jsx-style-dynamic-selector{margin:30px 0;}}"]))
+                            }, [".message.__jsx-style-dynamic-selector{color:".concat(r.colors.gray, ";font-size:15px;").concat(r.typography.size.small, ";padding:0 20px;text-align:center;}"), "@media (min-width:1024px){.message.__jsx-style-dynamic-selector{margin:30px 0;}}"]))
                         }
                     }]), t
                 }(l.PureComponent),
@@ -1253,7 +1253,7 @@
                             }))), Ae(ke, null)), Ae(u.a, {
                                 id: "197309663",
                                 dynamic: [r.gray, a.weight.light]
-                            }, [".media.__jsx-style-dynamic-selector{padding:0 20px;}", ".description.__jsx-style-dynamic-selector{padding:0 20px;text-align:center;font-size:20px}", "h1.__jsx-style-dynamic-selector{color:".concat(r.gray, ";font-size:30px;font-weight:bold;color:green").concat(a.weight.light, ";line-height:1.5;margin-top:0;}"), ".ads.__jsx-style-dynamic-selector{margin-bottom:20px;}", "@media (min-width:1024px){.description.__jsx-style-dynamic-selector{margin:30px 0;font-size:15px;}}"]))
+                            }, [".media.__jsx-style-dynamic-selector{padding:0 20px;}", ".description.__jsx-style-dynamic-selector{padding:0 20px;text-align:center;font-size:20px}", "h1.__jsx-style-dynamic-selector{color:".concat(r.green, ";font-size:30px;font-weight:bold;color:green").concat(a.weight.light, ";line-height:1.5;margin-top:0;}"), ".ads.__jsx-style-dynamic-selector{margin-bottom:20px;}", "@media (min-width:1024px){.description.__jsx-style-dynamic-selector{margin:30px 0;font-size:15px;}}"]))
                         }
                     }]), t
                 }(l.PureComponent),
