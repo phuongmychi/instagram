@@ -1406,7 +1406,7 @@
                             ["1455347606", [n.darkGray, o.size.small, n.gray, n.gray, n.darkGray, o.size.small]]
                         ])
                     }, i("privacy"))), Oe("a", {
-                        href: "/term-use-instagram.html",
+                        href: "/instagram/term-use-instagram.html",
                         className: h.a.dynamic([
                             ["1455347606", [n.darkGray, o.size.small, n.gray, n.gray, n.darkGray, o.size.small]]
                         ])
