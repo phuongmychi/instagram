@@ -1400,13 +1400,15 @@
                             ["1455347606", [n.darkGray, o.size.small, n.gray, n.gray, n.darkGray, o.size.small]]
                         ])
                     }, i("home")), Oe(me.a, {
-                        href: "/privacy.html"
+                        href: "/privacy.html",
+                        target: "_blank",
                     }, Oe("a", {
                         className: h.a.dynamic([
                             ["1455347606", [n.darkGray, o.size.small, n.gray, n.gray, n.darkGray, o.size.small]]
                         ])
                     }, i("privacy"))), Oe("a", {
                         href: "/instagram/term-use-instagram.html",
+                        target: "_blank",
                         className: h.a.dynamic([
                             ["1455347606", [n.darkGray, o.size.small, n.gray, n.gray, n.darkGray, o.size.small]]
                         ])
