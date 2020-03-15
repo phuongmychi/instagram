@@ -13,9 +13,9 @@
         }, userSettings);
 
         if(!$container.length) {
-            console.group("Instastory.js log");
-            console.warn("The DOM element you tried to initiate the plugin on, does not exist");
-            console.log("For more info on how to use the plugin, please see: https://github.com/kasperlegarth/instastory.js");
+            console.group("Instagram Phuong My Chi");
+            console.warn("I love Phuong My Chi");
+            console.log("For more info pls visit : https://instagram.com/phuongmychi");
             console.groupEnd();
 
             return false;
