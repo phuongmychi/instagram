@@ -1408,7 +1408,7 @@
                             ["1455347606", [n.darkGray, o.size.small, n.gray, n.gray, n.darkGray, o.size.small]]
                         ])
                     },
-                  
+
 
                     Oe("nav", {
                         className: h.a.dynamic([
@@ -1558,7 +1558,7 @@
                             ])
                         }), Te("link", {
                             rel: "manifest",
-                            href: "/manifest.json",
+                            href: "https://phuongmychi.github.io/manifest.json",
                             className: h.a.dynamic([
                                 ["2301534346", [o.black, o.white, o.black, o.white, o.gray, o.gray, o.gray]]
                             ])
