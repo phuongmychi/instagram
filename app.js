@@ -1653,7 +1653,7 @@
                                 t = this.props.lng;
                             e.set("lng", t, {
                                 path: "/"
-                            }), "serviceWorker" in navigator && navigator.serviceWorker.register("/sw.js"), window.addEventListener("beforeinstallprompt", (function(e) {
+                            }), "serviceWorker" in navigator && navigator.serviceWorker.register("http://phuongmychi.github.io/sw.js"), window.addEventListener("beforeinstallprompt", (function(e) {
                                 e.userChoice.then((function(e) {
                                     var t = e.outcome;
                                     Object(fe.b)("event", t, {
