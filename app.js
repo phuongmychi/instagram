@@ -1394,6 +1394,8 @@
                     d: "M26.462 7.456c0 1.060-0.859 1.919-1.919 1.919s-1.919-0.859-1.919-1.919c0-1.060 0.859-1.919 1.919-1.919s1.919 0.859 1.919 1.919z"
                 }))
             }
+
+
             var Oe = d.a.createElement,
                 Se = (new Date).getFullYear(),
                 Ce = function(e) {
@@ -1405,7 +1407,10 @@
                         className: h.a.dynamic([
                             ["1455347606", [n.darkGray, o.size.small, n.gray, n.gray, n.darkGray, o.size.small]]
                         ])
-                    }, Oe("nav", {
+                    },
+                  
+
+                    Oe("nav", {
                         className: h.a.dynamic([
                             ["1455347606", [n.darkGray, o.size.small, n.gray, n.gray, n.darkGray, o.size.small]]
                         ]) + " navigation"
@@ -1464,6 +1469,7 @@
                             ["1455347606", [n.darkGray, o.size.small, n.gray, n.gray, n.darkGray, o.size.small]]
                         ])
                     },
+
                     Oe("a", {
                         href: "https://www.instagram.com/phuongmychi/",
                         target: "_blank",
@@ -1524,7 +1530,7 @@
                             }, je(h.a, {
                                 id: "1934670949",
                                 dynamic: [n.cookieConsent, t.gray, o.size.small, t.gray, t.black, t.gray, t.black]
-                            }, [".cc-window{background-color:white;border-radius:6px;bottom:0;box-shadow:".concat(n.cookieConsent, ";color:").concat(t.gray, ";display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:row;-ms-flex-direction:row;flex-direction:row;-webkit-flex-wrap:nowrap;-ms-flex-wrap:nowrap;flex-wrap:nowrap;font-size:").concat(o.size.small, ";-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;left:0;margin:20px;overflow:hidden;padding:20px;position:fixed;right:0;-webkit-transition:opacity 1s ease;transition:opacity 1s ease;z-index:9999;}"), "@media (min-width:768px){.cc-window{margin:20px auto;max-width:300px;}}", ".cc-invisible{opacity:0;}", ".cc-link{color:".concat(t.gray, ";-webkit-text-decoration:underline;text-decoration:underline;-webkit-transition:color 0.2s ease;transition:color 0.2s ease;}"), ".cc-link:hover{color:".concat(t.black, ";}"), ".cc-compliance{border-left:1px solid ".concat(t.gray, ";padding-left:20px;}"), ".cc-btn{cursor:pointer;outline:none;}", ".cc-btn:hover{color:".concat(t.black, ";-webkit-transition:color 0.2s ease;transition:color 0.2s ease;}")]))
+                            }, [".cc-window{background-color:green;border-radius:6px;bottom:0;color:white;font-size:20px;box-shadow:".concat(n.cookieConsent, ";color:white").concat(t.gray, ";display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:row;-ms-flex-direction:row;flex-direction:row;-webkit-flex-wrap:nowrap;-ms-flex-wrap:nowrap;flex-wrap:nowrap;font-size:").concat(o.size.small, ";-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;left:0;margin:20px;overflow:hidden;padding:20px;position:fixed;right:0;-webkit-transition:opacity 1s ease;transition:opacity 1s ease;z-index:9999;}"), "@media (min-width:768px){.cc-window{margin:20px auto;max-width:300px;}}", ".cc-invisible{opacity:0;}", ".cc-link{color:".concat(t.gray, ";-webkit-text-decoration:underline;text-decoration:underline;-webkit-transition:color 0.2s ease;transition:color 0.2s ease;}"), ".cc-link:hover{color:".concat(t.black, ";}"), ".cc-compliance{border-left:1px solid ".concat(t.gray, ";padding-left:20px;}"), ".cc-btn{cursor:pointer;outline:none;}", ".cc-btn:hover{color:".concat(t.black, ";-webkit-transition:color 0.2s ease;transition:color 0.2s ease;}")]))
                         }
                     }]), t
                 }(f.PureComponent),
@@ -2121,14 +2127,14 @@
                                 policy: "Cookie Policy"
                             },
                             elements: {
-                                header: '<span class="cc-header">{{header}}</span>&nbsp;',
+                                header: '<span class="cc-header">{{header}}</span>',
                                 message: '<span id="cookieconsent:desc" class="cc-message">{{message}}</span>',
-                                messagelink: '<span id="cookieconsent:desc" class="cc-message">{{message}} <a aria-label="learn more about cookies" role=button tabindex="0" class="cc-link" href="{{href}}" rel="noopener noreferrer nofollow" target="{{target}}">{{link}}</a> để đảm bảo bạn có được trải nghiệm tốt nhất trên trang web của chúng tôi</span>',
-                                dismiss: '<a aria-label="dismiss cookie message" role=button tabindex="0" class="cc-btn cc-dismiss">{{dismiss}}</a>',
+                                messagelink: '<span id="cookieconsent:desc" class="cc-message">{{message}} <a aria-label="learn more about cookies" style="color:blue" role=button tabindex="0" class="cc-link" href="{{href}}" rel="noopener noreferrer nofollow" target="{{target}}">{{link}}</a> để đảm bảo bạn có được trải nghiệm tốt nhất trên trang web của chúng tôi</span>',
+                                dismiss: '<a style="color:red" aria-label="dismiss cookie message" role=button tabindex="0" class="cc-btn cc-dismiss">{{dismiss}}</a>',
                                 allow: '<a aria-label="allow cookies" role=button tabindex="0"  class="cc-btn cc-allow">{{allow}}</a>',
                                 deny: '<a aria-label="deny cookies" role=button tabindex="0" class="cc-btn cc-deny">{{deny}}</a>',
-                                link: '<a aria-label="learn more about cookies" role=button tabindex="0" class="cc-link" href="{{href}}" rel="noopener noreferrer nofollow" target="{{target}}">{{link}}</a>',
-                                close: '<span aria-label="dismiss cookie message" role=button tabindex="0" class="cc-close">{{close}}</span>'
+                                link: '<a aria-label="learn more about cookies" style="color:blue" role=button tabindex="0" class="cc-link" href="{{href}}" rel="noopener noreferrer nofollow" target="{{target}}">{{link}}</a>',
+                                close: '<span aria-label="dismiss cookie message" style="color:green" role=button tabindex="0" class="cc-close">{{close}}</span>'
                             },
                             window: '<div role="dialog" aria-live="polite" aria-label="cookieconsent" aria-describedby="cookieconsent:desc" class="cc-window {{classes}}">\x3c!--googleoff: all--\x3e{{children}}\x3c!--googleon: all--\x3e</div>',
                             revokeBtn: '<div class="cc-revoke {{classes}}">{{policy}}</div>',
