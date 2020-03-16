@@ -1270,10 +1270,10 @@
                 ue = (ce.changeLanguage.bind(ce), ce.cloneInstance.bind(ce), ce.createInstance.bind(ce), ce.dir.bind(ce), ce.exists.bind(ce), ce.getFixedT.bind(ce), ce.init.bind(ce), ce.loadLanguages.bind(ce), ce.loadNamespaces.bind(ce), ce.loadResources.bind(ce), ce.off.bind(ce), ce.on.bind(ce), ce.setDefaultNamespace.bind(ce), ce.t.bind(ce), ce.use.bind(ce), {
                     en: {
                         translation: {
-                            title: "Tải hình ảnh Instagram Online | Download Hình ảnh Instagram",
+                            title: "Tải hình ảnh,videos Instagram  Trực tuyến | Download images,Videos TV Instagram Online",
                             description: "Download and save your favorite Videos and Photos from Instagram. You can download images, videos, profile photos, etc. and save easily.",
-                            h1: "Tải xuống & Lưu trữ hình ảnh Instagram trực tuyến",
-                            p1: "Chỉ cần dán link hoặc tên người dùng , bạn có thể tải xuống 1 cách dễ dàng",
+                            h1: "Tải xuống & Lưu trữ hình ảnh video Instagram trực tuyến",
+                            p1: "Chỉ cần dán link hình ảnh, video, tv  hoặc tên người dùng instagram, bạn có thể tải xuống 1 cách dễ dàng",
                             download: "Tải xuống",
                             history: "Lịch sử",
                             emptyHistory: "Lịch sử tải xuống của bạn ở đây: ",
@@ -1340,7 +1340,7 @@
                     }, "Phuong My Chi Entertainment")), de(h.a, {
                         id: "4060759386",
                         dynamic: [n.gray, o.size.regular, o.weight.bold]
-                    }, ["header.__jsx-style-dynamic-selector{padding:30px 20px 0 20px;margin:auto;max-width:900px;}", ".logo.__jsx-style-dynamic-selector{color:".concat(n.gray, ";font-size:").concat(o.size.regular, ";font-weight:").concat(o.weight.bold, ";-webkit-text-decoration:none;text-decoration:none;}"), "@media (min-width:1024px){header.__jsx-style-dynamic-selector{padding-bottom:30px;}}"]))
+                    }, ["header.__jsx-style-dynamic-selector{padding:30px 20px 0 20px;margin:auto;max-width:900px;}", ".logo.__jsx-style-dynamic-selector{color:".concat(n.gray, ";font-size:15px;").concat(o.size.regular, ";font-weight:").concat(o.weight.bold, ";-webkit-text-decoration:none;text-decoration:none;}"), "@media (min-width:1024px){header.__jsx-style-dynamic-selector{padding-bottom:30px;}}"]))
                 },
                 ye = function(e) {
                     return de(S.a.Consumer, null, (function(t) {
