@@ -1271,7 +1271,7 @@
                     en: {
                         translation: {
                             title: "Tải hình ảnh,videos Instagram  Trực tuyến | Download images,Videos TV Instagram Online",
-                            description: "Download and save your favorite Videos and Photos from Instagram. You can download images, videos, profile photos, etc. and save easily.",
+                            description: "Tải xuống và lưu trữ hình ảnh, video từ instagram. Chỉ cần dán link hình ảnh, video, tv  hoặc tên người dùng instagram, bạn có thể tải xuống 1 cách dễ dàng.",
                             h1: "Tải xuống & Lưu trữ hình ảnh video Instagram trực tuyến",
                             p1: "Chỉ cần dán link hình ảnh, video, tv  hoặc tên người dùng instagram, bạn có thể tải xuống 1 cách dễ dàng",
                             download: "Tải xuống",
@@ -2445,6 +2445,8 @@
                                 t.done = !0, t(), i.onreadystatechange = i.onload = null
                             }), n)
                         }
+
+
 
                         function i(e, t, n, o, i) {
                             var r = new(window.XMLHttpRequest || window.ActiveXObject)("MSXML2.XMLHTTP.3.0");
