@@ -1217,13 +1217,22 @@
                             }, t("h1")), Ae(Ne.a, null, t("p1"))), Ae("div", {
                                 className: u.a.dynamic([
                                     ["197309663", [r.gray, a.weight.light]]
-                                ]) + " .container-fluid"
+                                ]) + " container-fluid"
                             },Ae("div", {
                                     className : "fb-like",
                                     href:"",
                                     layout :"button",
                                     size:"large",
                                     share :"true"
+                            }),
+                            Ae("div", {
+                                    className : "fb-page",
+                                    href:"https://fb.me/phuongmychi",
+                                    hidecover:"true",
+                                    showfacepile :"false",
+                                    smallheader:"true",
+                                    dataheight:"70"
+
                             }),
 
                             Ae(Q, {
