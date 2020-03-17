@@ -1236,7 +1236,7 @@
 
 
                             Ae("h1", {
-                                className: "alert alert-info"
+                                className: "des"
                             }, t("h1")), Ae(Ne.a, null, t("p1"))), Ae("div", {
                                 className: u.a.dynamic([
                                     ["197309663", [r.gray, a.weight.light]]
