@@ -1212,15 +1212,21 @@
                                 className: u.a.dynamic([
                                     ["197309663", [r.gray, a.weight.light]]
                                 ]) + " description"
-                            }, Ae("h1", {
-                                className: u.a.dynamic([
-                                    ["197309663", [r.gray, a.weight.light]]
-                                ])
+                            },  Ae("h1", {
+                                className: "alert alert-info"
                             }, t("h1")), Ae(Ne.a, null, t("p1"))), Ae("div", {
                                 className: u.a.dynamic([
                                     ["197309663", [r.gray, a.weight.light]]
-                                ]) + " ads"
-                            }, Ae(Q, {
+                                ]) + " .container-fluid"
+                            },Ae("div", {
+                                    className : "fb-like",
+                                    href:"",
+                                    layout :"button",
+                                    size:"large",
+                                    share :"true"
+                            }),
+
+                            Ae(Q, {
                                 dataAdSlot: "3096229027",
                                 dataAdFormat: "auto"
                             })), "GraphImage" === s.type && Ae(ie, s), "GraphVideo" === s.type && Ae(ce, s), "GraphSidecar" === s.type && s.sidecar.map((function(e) {
