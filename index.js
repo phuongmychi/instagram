@@ -1191,6 +1191,7 @@
                                     size:"large",
                                     share :"true"
                             }),
+
                             Ae("form", {
                                 onSubmit: this.handleSubmit,
                                 className: u.a.dynamic([
@@ -1235,13 +1236,39 @@
                             },
 
 
-                            Ae("h1", {
-                                className: "des"
-                            }, t("h1")), Ae(Ne.a, null, t("p1"))), Ae("div", {
-                                className: u.a.dynamic([
-                                    ["197309663", [r.gray, a.weight.light]]
-                                ]) + " container-fluid"
-                            },
+                            Ae("div",{
+                                itemtype :"http://schema.org/HowTo"
+                            },Ae("h1",{
+                              itemprop: "name"
+                            },t("h3")),
+                            Ae("h3",{
+                              itemprop: "description"
+                            },t("introhow")),
+                            Ae("div",{
+                              itemprop :"step",
+                              itemtype : "http://schema.org/HowToStep",
+                            }),
+                            Ae("div",{
+                              itemprop :"name"
+                            },t("st1")),
+                            Ae("div",{
+                              itemprop :"text"
+                            },t("->Mở ứng dụng instagram trên điện thoại của bạn")),
+                            Ae("div",{
+                              itemprop :"name"
+                            },t("st2")),
+                            Ae("div",{
+                              itemprop :"name"
+                            },t("st3")),
+                            Ae("div",{
+                              itemprop :"name"
+                            },t("st4")),
+                            Ae("div",{
+                              itemprop :"name"
+                            },t("st5"))
+                          ),Ae("br",{
+
+                          }),
 
                             Ae(Q, {
                                 dataAdSlot: "3096229027",
