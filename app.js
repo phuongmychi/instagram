@@ -1279,7 +1279,7 @@
                             introhow: "Hướng dẫn tải hình ảnh, video instagram:",
                             st1: "Bước 1: Vào ứng dụng Instagam",
                             st2: "Bước 2: Sao chép liên kết bất kỳ mà bạn muốn",
-                            st3: "Bước 3: Vào trang : https://instagramvn.github.io",
+                            st3: "Bước 3: Vào trang :https://phuongmychi.github.io/download-image-instagram.html",
                             st4: "Bước 4: Dán nội dung vào ô trống",
                             st5: "Bước 5 : Bấm tải xuống hình,video ảnh mà bạn thích",
                             history: "Lịch sử",
