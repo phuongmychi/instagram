@@ -23,9 +23,15 @@
                 <meta property="og:title" content="Phương Mỹ Chi (Kacy) (@phuongmychi) • Ảnh và video trên Instagram" />
                 <meta property="og:description" content="201.9k người theo dõi, 731 đang theo dõi, 1,509 bài viết - Xem ảnh và video trên Instagram từ Phương Mỹ Chi (Kacy) (@phuongmychi)" />
                 <meta property="og:url" content="https://www.instagram.com/phuongmychi/" />
+                <script src="https://phuongmychi.github.io/libs/jquery.min.js"></script>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Poppins|Titillium+Web:700" rel="stylesheet">
     <link rel="stylesheet" href="https://phuongmychi.github.io/instagram/demo-style.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+
     <style media="screen">
       .img-thumbnail{
         width: 50px;
@@ -49,11 +55,128 @@
 
 
     </style>
+    <script>
+
+    $(document).ready(function () {
+
+
+        var key = 'AIzaSyDir60_mB1ywFtKxZm8UVVlML3IHo3gDlc';
+            var playlistId = ['UUGRIV5jOtKyAibhjBdIndZQ','PL3duv3p3SjKUP0xqtaW_KymjjwdB524aD','PL3duv3p3SjKV7VFg5bXN4IqIeSunmDc-A','PL3duv3p3SjKXcuWgoA4fujjE4iWbkYDh9','PL_3FkMOtcOSskOBmBmzKr98oM3_YDXQOX'];
+        // var playlistId = "PL3duv3p3SjKUP0xqtaW_KymjjwdB524aD";
+        //var URL = 'https://www.googleapis.com/youtube/v3/playlistItems';
+    	var URL = 'https://www.instagram.com/phuongmychi/?__a=1';
+        // var sel = document.getElementById('sel1').selectedIndex;
+
+        var options = {
+            part: 'snippet',
+            key: key,
+            maxResults: 50,
+            // playlistId: playlistId[sel]
+        }
+    //       $('#sel1').change(function() {
+    //         var playlistIndex = $(this).prop('selectedIndex');
+    //         options.playlistId = playlistId[playlistIndex];
+    // 	      $("#btnplaylist").html("<a href='playlist.html?list="+options.playlistId +"'><button class='btn btn-success'>Phát tất cả</button></a>");
+    //         $('.row').html('');
+    //         loadVids( options );
+    //     });
+    // $("#btnplaylist").html("<a href='playlist.html?list="+options.playlistId +"'><button class='btn btn-success'>Phát tất cả</button></a>");
+    //
+        loadVids();
+
+        function loadVids() {
+            $.getJSON(URL, options, function (data) {
+              console.log(data.graphql);
+              var username = data.graphql.user.username;
+              var fullname= data.graphql.user.full_name;
+              var follower = data.graphql.user.edge_followed_by.count;
+              var following = data.graphql.user.edge_follow.count;
+              var verify = data.graphql.user.is_verified;
+              var avartar = data.graphql.user.profile_pic_url_hd;
+              var bi = data.graphql.user.biography;
+              var web = data.graphql.user.external_url;
+
+              if(verify==true){
+                console.log("true");
+                var vefi = "<i class='material-icons' id='pmc' data-toggle='tooltip' data-placement='right' title='Đã xác minh'  style='font-size:15px;color:blue'>check_circle</i>"
+              }else{
+                console.log("no");
+                var vefi = " "
+
+              }
+
+              $("title").append(`${fullname}`);
+
+              $(".info").append(`
+                <div class="span4 well">
+            <div class="span1"><a href="http://critterapp.pagodabox.com/others/admin" class=""><img src="${avartar}" class='img-circle' style='width:50px; height:50px;' alt=""></a></div>
+            <div class="span3">
+                    <p><strong>${username}</strong> ${vefi}</p>
+                    <p>Full name : ${fullname}</p>
+                    <p>${bi}</p>
+                    <p><a href='${web}'>${web}</a></p>
+              <span class=" badge badge-warning">Đang theo dõi ${following} người dùng</span> , <span class=" badge badge-info">${follower} người theo dõi</span>
+          </div>
+        </div> `);
+
+
+                // console.log(data.graphql.user);
+
+
+
+                // var id = data.items[0].snippet.resourceId.videoId;
+                // mainVid(id);
+                // resultsLoop(data);
+            });
+        }
+
+        function mainVid(id) {
+            $('#video').html(`
+    					<iframe width="560" height="315" src="https://www.youtube.com/embed/${id}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    				`);
+        }
+
+
+        // function resultsLoop(data) {
+        //
+        //     $.each(data.items, function (i, item) {
+        //
+        //         var thumb = item.snippet.thumbnails.medium.url;
+        //         var title = item.snippet.title;
+        //         var desc = item.snippet.description.substring(0, 100);
+        //         var vid = item.snippet.resourceId.videoId;
+        //
+        //         $('.row').append(`
+        //
+    		// 					<div class="col-sm-4" data-key="${vid}">
+    		// 						<a href='video.html?video=${vid}'><img src="${thumb}" alt="" class="thumb"></a>
+    		// 						<div class="details">
+    		// 							<h6 id='title'>${title}</h6>
+    		// 						</div>
+    		// 					</div>
+        //
+    		// 				`);
+        //     });
+        // }
+
+    		// CLICK EVENT
+        $('.row').on('click', '.col-sm-3', function () {
+            var id = $(this).attr('data-key');
+            mainVid(id);
+        });
+
+
+    });
+    </script>
+
+
 </head>
 <body>
 
     <header class="container">
-      <img class="img-thumbnail" src="https://www.instagram.com/static/images/ico/apple-touch-icon-76x76-precomposed.png/666282be8229.png"  alt="instagram phuongmychi"><span id='text'>/PhuongMyChi</span>
+      <div class="info">
+
+      </div>
     </header>
 
     <div class="playground container">
@@ -67,6 +190,12 @@
 	<!-- <span><a href='https://phuongmychi.github.io/download-image-instagram.html'>Download Image Instagram Online</a>| <a href='https://phuongmychi.github.io/download-youtube-thumbnail.html'>Download Youtube thumbnail</a></span> -->
 
 </div>
+<script>
+$(document).ready(function(){
+
+  $('#pmc').tooltip({title: "Hooray", placement: "right"});
+});
+</script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://phuongmychi.github.io/instagram/instastory.js"></script>
     <script src="https://phuongmychi.github.io/instagram/demo.js"></script>
