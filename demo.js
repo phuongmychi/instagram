@@ -31,7 +31,7 @@ $(document).ready(function() {
         imageSize: 240,
         limit: 100,
         link: true,
-        template: '<div class="post"><a href="{{link}}" target="_blank"><img src="{{image}}" alt="{{accessibility_caption}}"><span class="meta"><p>{{caption}}</p><span class="stats"><span class="likes"><i class="fas fa-heart"></i>{{likes}}</span><span class="comments"><i class="fas fa-comment"></i>{{comments}}</span></span></a></div>'
+        template: '<div class="post"><a href="{{link}}" ><img src="{{image}}" alt="{{accessibility_caption}}"><span class="meta"><p>{{caption}}</p><span class="stats"><span class="likes"><i class="fas fa-heart"></i>{{likes}}</span><span class="comments"><i class="fas fa-comment"></i>{{comments}}</span></span></a></div>'
     };
 
     $('#playground-result').instastory(playgroundOptions);
