@@ -3,10 +3,8 @@
 <head>
   <title>Phương Mỹ Chi (Kacy) (@phuongmychi) • Ảnh và video trên Instagram</title>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1">
                 <link rel="alternate" href="android-app://com.instagram.android/https/instagram.com/_u/phuongmychi/" />
-
 
                 <meta property="al:ios:app_name" content="Instagram" />
                 <meta property="al:ios:app_store_id" content="389801252" />
@@ -22,142 +20,295 @@
                 <meta property="og:image" content="https://scontent-hkt1-1.cdninstagram.com/v/t51.2885-19/s150x150/80003837_845261019218853_3857364086211739648_n.jpg?_nc_ht=scontent-hkt1-1.cdninstagram.com&_nc_ohc=XhSUVpaFJPUAX9CdOB3&oh=2ced5b5e5081e62d4e11187885d5432c&oe=5E9E3D48" />
                 <meta property="og:title" content="Phương Mỹ Chi (Kacy) (@phuongmychi) • Ảnh và video trên Instagram" />
                 <meta property="og:description" content="201.9k người theo dõi, 731 đang theo dõi, 1,509 bài viết - Xem ảnh và video trên Instagram từ Phương Mỹ Chi (Kacy) (@phuongmychi)" />
-                <meta property="og:url" content="https://www.instagram.com/phuongmychi/" />
-                <script src="https://phuongmychi.github.io/libs/jquery.min.js"></script>
+                <meta property="og:url" content="https://www.instagram.com/phuongmychi/">
+                <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Poppins|Titillium+Web:700" rel="stylesheet">
-    <link rel="stylesheet" href="https://phuongmychi.github.io/instagram/demo-style.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-
+    <!-- <link rel="stylesheet" href="https://phuongmychi.github.io/instagram/demo-style.min.css"> -->
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> -->
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+ <script src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
+<script src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
+<script src="https://phuongmychi.github.io/network.js"></script>
 
     <style media="screen">
-      .img-thumbnail{
-        width: 50px;
-        height: 50px;
-      }
-      #text{
-        font-size: 30px;
-        margin-right:5px;
-        margin-left: 3px;
-      }
-      #copyrightpmc{
+
+
+.container{
+  margin-top: 5%;
+}
+  #copyrightpmc{
   display: flex;
   font-size: 12px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
+  margin-top: 2%;
   /* min-height: 15vh; */
 }
+ #urlpmc{
+   display: flex;
+   font-size: 12px;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   margin-top: 10%;
+ }
+#myCarousel{
+  width:480px;
+  height: auto;
+}
+.caption{
+  width:480px;
+}
+#imglist{
+  width: 280px;
+  height: 240px;
+}
+@media screen and (orientation:portrait) {
+  #myCarousel{
+    width:100%;
+    height: auto;
+  }
+  .caption{
+    width:100%;
+  }
+  #imglist{
+    width: 340px;
+    height: 340px;
+  }
 
+}
 
+</style>
+<script>
+var getUrlParameter = function getUrlParameter(sParam) {
+    var sPageURL = window.location.search.substring(1),
+        sURLVariables = sPageURL.split('&'),
+        sParameterName,
+        i;
 
-    </style>
+    for (i = 0; i < sURLVariables.length; i++) {
+        sParameterName = sURLVariables[i].split('=');
+
+        if (sParameterName[0] === sParam) {
+            return sParameterName[1] === undefined ? true : decodeURIComponent(sParameterName[1]);
+        }
+    }
+};
+
+</script>
     <script>
 
     $(document).ready(function () {
-
-
-        var key = 'AIzaSyDir60_mB1ywFtKxZm8UVVlML3IHo3gDlc';
-            var playlistId = ['UUGRIV5jOtKyAibhjBdIndZQ','PL3duv3p3SjKUP0xqtaW_KymjjwdB524aD','PL3duv3p3SjKV7VFg5bXN4IqIeSunmDc-A','PL3duv3p3SjKXcuWgoA4fujjE4iWbkYDh9','PL_3FkMOtcOSskOBmBmzKr98oM3_YDXQOX'];
-        // var playlistId = "PL3duv3p3SjKUP0xqtaW_KymjjwdB524aD";
-        //var URL = 'https://www.googleapis.com/youtube/v3/playlistItems';
-    	var URL = 'https://www.instagram.com/phuongmychi/?__a=1';
-        // var sel = document.getElementById('sel1').selectedIndex;
+      var key =  getUrlParameter('postlovepmc');
+      console.log(key);
+    	var URL = 'https://www.instagram.com/p/'+key+'/?__a=1';
+      console.log(URL);
 
         var options = {
             part: 'snippet',
             key: key,
-            maxResults: 50,
+            maxResults: 9,
             // playlistId: playlistId[sel]
         }
-    //       $('#sel1').change(function() {
-    //         var playlistIndex = $(this).prop('selectedIndex');
-    //         options.playlistId = playlistId[playlistIndex];
-    // 	      $("#btnplaylist").html("<a href='playlist.html?list="+options.playlistId +"'><button class='btn btn-success'>Phát tất cả</button></a>");
-    //         $('.row').html('');
-    //         loadVids( options );
-    //     });
-    // $("#btnplaylist").html("<a href='playlist.html?list="+options.playlistId +"'><button class='btn btn-success'>Phát tất cả</button></a>");
-    //
+
         loadVids();
 
         function loadVids() {
             $.getJSON(URL, options, function (data) {
-              console.log(data.graphql);
-              var username = data.graphql.user.username;
-              var fullname= data.graphql.user.full_name;
-              var follower = data.graphql.user.edge_followed_by.count;
-              var following = data.graphql.user.edge_follow.count;
-              var verify = data.graphql.user.is_verified;
-              var avartar = data.graphql.user.profile_pic_url_hd;
-              var bi = data.graphql.user.biography;
-              var web = data.graphql.user.external_url;
+              // console.log(data.graphql.shortcode_media);
+              var img = data.graphql.shortcode_media.display_url;
+              var title = data.graphql.shortcode_media.edge_media_to_caption.edges[0].node.text
+              var cmmtnumber = data.graphql.shortcode_media.edge_media_preview_comment.count;
+              var likenumber = data.graphql.shortcode_media.edge_media_preview_like.count;
+              var username = data.graphql.shortcode_media.owner.username;
+              var verify = data.graphql.shortcode_media.owner.is_verified;
+              var pic = data.graphql.shortcode_media.owner.profile_pic_url;
+              var vid = data.graphql.shortcode_media.is_video;
+              var videos = data.graphql.shortcode_media.video_url;
+              var shortcode = data.graphql.shortcode_media.shortcode;
+              var urluser = "https://instagram.com/"+username;
+              var prt = "?__a=1";
+              var URLFULL = urluser+prt;
+              if(cmmtnumber == 0){
+                $("#errorcmt").append(`
+                  <div class="alert alert-danger">
+                  <p> Hiện chưa có bình luận nào</p>
+                  </div>
+                  `)
+              }
+              $("#urlpmc").append(`
+                  <button  onclick="javascript:location.href='${urluser}'" class='btn btn-danger btn-sm'>Xem tất cả các bài viết</button>
+
+                `)
+                $.getJSON(URLFULL, function(data){
+                    // console.log(data.graphql.user.edge_felix_video_timeline.edges);
+
+                    // console.log(data.graphql.user.edge_owner_to_timeline_media.edges);
+                    $.each(data.graphql.user.edge_owner_to_timeline_media.edges, function(i,item){
+                      // console.log(item.node.display_url);
+                      var img = item.node.display_url;
+                      var shortcode = item.node.shortcode;
+                      var title = item.node.accessibility_caption;
+                      var likenum = item.node.edge_liked_by.count;
+                      var cmmtnum = item.node.edge_media_to_comment.count
+                      // console.log(item.node);
+
+
+
+                      $(".row").append(`
+                        <div class="col-sm-3">
+                          <a href='detail.html?postlovepmc=${shortcode}'><img src='${img}' id='imglist' class='img-thumbnail' /></a>
+                          <div class='details'><span class="badge badge-success"><i class="fa fa-heart" aria-hidden="true"></i> ${likenum}</span>  <span class="badge badge-success" style='magrin-left:5px'><i class="fa fa-comments" aria-hidden="true"></i> ${cmmtnum} </span></div>
+                        </div>
+
+                        `)
+
+
+                    });
+
+
+                });
+
+              console.log(vid);
+              if (typeof(videos) == "undefined"){
+                $('#nm').append(`
+                  <div class="carousel-item active" id='imgch'>
+                  <img src="${img}" id='imgs' class='img-thumbnail' style="width:100%;">
+                  </div>
+
+
+                `)
+
+              }else if(typeof(videos) != "undefined"){
+                $("#nm").css("display","block");
+                $('#nm').append(`
+                  <div class="list-group-item">
+                  <video id='mvideo' class='img-responsive' width="100%" height="auto" controls>
+                    <source src="${videos}" type="video/mp4">
+                      Your browser does not support the video tag.
+                    </video>
+                    <div class="details">
+                    </div>
+                  </div>
+
+
+                `);
+              }
+
 
               if(verify==true){
-                console.log("true");
                 var vefi = "<i class='material-icons' id='pmc' data-toggle='tooltip' data-placement='right' title='Đã xác minh'  style='font-size:15px;color:blue'>check_circle</i>"
               }else{
                 console.log("no");
                 var vefi = " "
 
               }
-
-              $("title").append(`${fullname}`);
-
               $(".info").append(`
-                <div class="span4 well">
-            <div class="span1"><a href="http://critterapp.pagodabox.com/others/admin" class=""><img src="${avartar}" class='img-circle' style='width:50px; height:50px;' alt=""></a></div>
-            <div class="span3">
-                    <p><strong>${username}</strong> ${vefi}</p>
-                    <p>Full name : ${fullname}</p>
-                    <p>${bi}</p>
-                    <p><a href='${web}'>${web}</a></p>
-              <span class=" badge badge-warning">Đang theo dõi ${following} người dùng</span> , <span class=" badge badge-info">${follower} người theo dõi</span>
-          </div>
-        </div> `);
+              <p><span><img src='${pic}' class='rounded-circle' style='width:40px; height:40px;'/></span> <span style='cursor:pointer;' onclick="javascript:location.href='https://phuongmychi.github.io/instagram'">${username}</span> <span>${vefi}</span></p>
 
-
-                // console.log(data.graphql.user);
+              `)
 
 
 
-                // var id = data.items[0].snippet.resourceId.videoId;
-                // mainVid(id);
-                // resultsLoop(data);
+              $('.caption').append(`
+             <p>${title}</p>
+             <div class="cmmt">
+               <a href="#" id='btn1'  data-toggle='modal' data-target='#myModal'  >Xem bình luận</a>
+             </div>
+               <span class="badge badge-success">${likenumber} lượt thích</span>   <span   id='btn1'  data-toggle='modal' data-target='#myModal' style='cursor: pointer;'  data-toggle="tooltip" title="Click để xem bình luận"  class="badge badge-success">${cmmtnumber} bình luận</span>
+                <span style='cursor: pointer;' onclick="window.open('https://www.instagram.com/p/${shortcode}')" class="badge badge-danger"> Xem bài viết đầy đủ</span>
+
+              `)
+
+
+
+
+                resultsLoop(data);
             });
         }
 
-        function mainVid(id) {
-            $('#video').html(`
-    					<iframe width="560" height="315" src="https://www.youtube.com/embed/${id}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-    				`);
+
+        function resultsLoop(data) {
+
+            $.each(data.graphql.shortcode_media.edge_media_to_parent_comment.edges, function (i, item) {
+
+                // console.log(item.node);
+                var txt =item.node.text;
+                var picu = item.node.owner.profile_pic_url;
+                var usn = item.node.owner.username;
+                var usrverify = item.node.owner.is_verified;
+                if(usrverify==true){
+                  var vefi = "<i class='material-icons' id='pmc' data-toggle='tooltip' data-placement='right' title='Đã xác minh'  style='font-size:15px;color:blue'>check_circle</i>"
+                }else{
+                  // console.log("no");
+                  var vefi = " "
+
+                }
+                var i;
+
+                $(".comment").append(`
+                <div class="media">
+                  <div class="media-left">
+                    <img src="${picu}" class="rounded-circle" style="width:50px"/>
+                  </div>
+                  <div class="media-body">
+                    <h6 class="media-heading">${usn} <span>${vefi}</span></h6>
+                    <p>${txt}</p>
+                  </div>
+
+                </div>
+
+
+                `)
+
+
+            });
+
+
+
+
+            $.each(data.graphql.shortcode_media.edge_sidecar_to_children.edges, function (i, item) {
+              var dtm = item.node;
+              var thumb = item.node.display_url;
+
+              // console.log(item.node);
+
+              $("#udemo").append(`
+                <li data-target="#demo"></li>
+
+                `)
+              $('#nm').append(`
+                <div class="carousel-item">
+                <img src="${thumb}" class='img-responsive' style="width:100%">
+                </div>
+                <div>
+                <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a class="carousel-control-next" href="#demo" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+                </a>
+
+                </div>
+              `)
+
+            });
+
+
+
         }
-
-
-        // function resultsLoop(data) {
-        //
-        //     $.each(data.items, function (i, item) {
-        //
-        //         var thumb = item.snippet.thumbnails.medium.url;
-        //         var title = item.snippet.title;
-        //         var desc = item.snippet.description.substring(0, 100);
-        //         var vid = item.snippet.resourceId.videoId;
-        //
-        //         $('.row').append(`
-        //
-    		// 					<div class="col-sm-4" data-key="${vid}">
-    		// 						<a href='video.html?video=${vid}'><img src="${thumb}" alt="" class="thumb"></a>
-    		// 						<div class="details">
-    		// 							<h6 id='title'>${title}</h6>
-    		// 						</div>
-    		// 					</div>
-        //
-    		// 				`);
-        //     });
-        // }
 
     		// CLICK EVENT
         $('.row').on('click', '.col-sm-3', function () {
@@ -166,30 +317,105 @@
         });
 
 
+
     });
     </script>
 
 
 </head>
 <body>
+    <header class="container1">
 
-    <header class="container">
+    </header>
+
+    <div class="container">
+      <div class="holder">
+      </div>
       <div class="info">
 
       </div>
-    </header>
+      <div id="demo" class="carousel slide" data-ride="carousel">
+      <ul  id='udemo' class="carousel-indicators">
 
-    <div class="playground container">
+      </ul>
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+          <div id='nm' class="carousel-inner" >
 
-        <div id="playground-result" class="result"></div>
-    </div>
+            </div>
+
+          </div>
+      </div>
+
+
+        <div class="caption">
+
+        </div>
+        <hr/>
+        <p class="badge badge-info">Xem thêm các bài viết khác : </p>
+        <div class="row">
+
+        </div>
+        <div id='urlpmc' ></div>
+
+        </div>
+
+
+
     <div id='copyrightpmc'>
 
     <p>© 2019 <a href='https://www.youtube.com/channel/UCiox3pl9bimZrznTg4uPR3w'>Phuong My Chi Entertainment</a></p>
 	   <p><span><a href="/privacy.html">Chính sách bảo mật</a></span> || <a href="/instagram/term-use-instagram.html">Điều khoản sử dụng</a></span></p>
 	<!-- <span><a href='https://phuongmychi.github.io/download-image-instagram.html'>Download Image Instagram Online</a>| <a href='https://phuongmychi.github.io/download-youtube-thumbnail.html'>Download Youtube thumbnail</a></span> -->
 
+  </div>
+
+  <!--  -->
+
+
+<!-- Button to Open the Modal -->
+<!-- <button type="button">
+  Open modal
+</button> -->
+
+<!-- The Modal -->
+<div class="modal" id="myModal">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h4 class="modal-title">Bình luận</h4>
+        <button type="button" style="margin-left:100px;" class="close" data-dismiss="modal">&times;</button>
+      </div>
+
+      <!-- Modal body -->
+      <div class="modal-body">
+        <div class="comment">
+          <p id='errorcmt'></p>
+        </div>
+        <p style="width:60%" >Để bình luận & xem bình luận đầy đủ , vui lòng sử dụng ứng dụng Instagram</p>
+
+      </div>
+
+      <!-- Modal footer -->
+      <div class="modal-footer">
+
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+      </div>
+
+    </div>
+  </div>
 </div>
+<script>
+$(document).ready(function(){
+  $('.badge-secondary').tooltip({title: "Hooray", placement: "top"});
+  $('.btn-success').tooltip({title: "Hooray", placement: "bottom"});
+  $('.btn-danger').tooltip({title: "Hooray", placement: "left"});
+  $('.btn-primary').tooltip({title: "Hooray", placement: "right"});
+});
+</script>
+
+
 <script>
 $(document).ready(function(){
 
