@@ -35,6 +35,9 @@
  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+ <script src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
+<script src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
+<script src="https://phuongmychi.github.io/network.js"></script>
 
     <style media="screen">
 
@@ -49,9 +52,18 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  margin-top: 10%;
+  margin-top: 2%;
   /* min-height: 15vh; */
 }
+ #urlpmc{
+   display: flex;
+   font-size: 12px;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   margin-top: 10%;
+ }
 #myCarousel{
   width:480px;
   height: auto;
@@ -129,6 +141,17 @@ var getUrlParameter = function getUrlParameter(sParam) {
               var urluser = "https://instagram.com/"+username;
               var prt = "?__a=1";
               var URLFULL = urluser+prt;
+              if(cmmtnumber == 0){
+                $("#errorcmt").append(`
+                  <div class="alert alert-danger">
+                  <p> Hiện chưa có bình luận nào</p>
+                  </div>
+                  `)
+              }
+              $("#urlpmc").append(`
+                  <button  onclick="javascript:location.href='${urluser}'" class='btn btn-danger btn-sm'>Xem tất cả các bài viết</button>
+
+                `)
                 $.getJSON(URLFULL, function(data){
                     // console.log(data.graphql.user.edge_felix_video_timeline.edges);
 
@@ -140,7 +163,7 @@ var getUrlParameter = function getUrlParameter(sParam) {
                       var title = item.node.accessibility_caption;
                       var likenum = item.node.edge_liked_by.count;
                       var cmmtnum = item.node.edge_media_to_comment.count
-                      console.log(item.node);
+                      // console.log(item.node);
 
 
 
@@ -193,7 +216,7 @@ var getUrlParameter = function getUrlParameter(sParam) {
 
               }
               $(".info").append(`
-              <p><span><img src='${pic}' class='rounded-circle' style='width:40px; height:40px;'/></span> <span>${username}</span> <span>${vefi}</span></p>
+              <p><span><img src='${pic}' class='rounded-circle' style='width:40px; height:40px;'/></span> <span style='cursor:pointer;' onclick="javascript:location.href='https://phuongmychi.github.io/instagram'">${username}</span> <span>${vefi}</span></p>
 
               `)
 
@@ -221,7 +244,7 @@ var getUrlParameter = function getUrlParameter(sParam) {
 
             $.each(data.graphql.shortcode_media.edge_media_to_parent_comment.edges, function (i, item) {
 
-                console.log(item.node);
+                // console.log(item.node);
                 var txt =item.node.text;
                 var picu = item.node.owner.profile_pic_url;
                 var usn = item.node.owner.username;
@@ -229,7 +252,7 @@ var getUrlParameter = function getUrlParameter(sParam) {
                 if(usrverify==true){
                   var vefi = "<i class='material-icons' id='pmc' data-toggle='tooltip' data-placement='right' title='Đã xác minh'  style='font-size:15px;color:blue'>check_circle</i>"
                 }else{
-                  console.log("no");
+                  // console.log("no");
                   var vefi = " "
 
                 }
@@ -257,10 +280,11 @@ var getUrlParameter = function getUrlParameter(sParam) {
 
 
             $.each(data.graphql.shortcode_media.edge_sidecar_to_children.edges, function (i, item) {
-              var dtm = item.node.shortcode;
+              var dtm = item.node;
               var thumb = item.node.display_url;
 
-              console.log(dtm);
+              // console.log(item.node);
+
               $("#udemo").append(`
                 <li data-target="#demo"></li>
 
@@ -330,9 +354,11 @@ var getUrlParameter = function getUrlParameter(sParam) {
         <p class="badge badge-info">Xem thêm các bài viết khác : </p>
         <div class="row">
 
+        </div>
+        <div id='urlpmc' ></div>
 
         </div>
-        </div>
+
 
 
     <div id='copyrightpmc'>
@@ -365,14 +391,15 @@ var getUrlParameter = function getUrlParameter(sParam) {
       <!-- Modal body -->
       <div class="modal-body">
         <div class="comment">
-
+          <p id='errorcmt'></p>
         </div>
-        <p class="badge badge-danger">Để bình luận & xem bình luận đầy đủ , vui lòng sử dụng ứng dụng Instagram</p>
+        <p style="width:60%" >Để bình luận & xem bình luận đầy đủ , vui lòng sử dụng ứng dụng Instagram</p>
 
       </div>
 
       <!-- Modal footer -->
       <div class="modal-footer">
+
         <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
       </div>
 
