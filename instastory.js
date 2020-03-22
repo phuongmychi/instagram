@@ -6,17 +6,14 @@
             get         : "",
             type        : "",
             imageSize   : 150,
-            limit       : 6,
+            limit       : 100,
             link        : true,
             template    : "",
             after       : function(){}
         }, userSettings);
 
         if(!$container.length) {
-            console.group("Instagram Phuong My Chi");
-            console.warn("I love Phuong My Chi");
-            console.log("For more info pls visit : https://instagram.com/phuongmychi");
-            console.groupEnd();
+          
 
             return false;
         }
@@ -94,7 +91,7 @@
                 "{{comments}}": post.edge_media_to_comment.count,
                 "{{image}}": getImageSize(post),
                 "{{likes}}": post.edge_liked_by.count,
-                "{{link}}": "https://www.instagram.com/p/"+ post.shortcode,
+                "{{link}}": "detail.html?postlovepmc="+ post.shortcode,
             }
 
             let template = settings.template.allReplace(templateCodes);
@@ -131,7 +128,7 @@
                         tempHtml = "<img src='" + getImageSize(post) + "' alt='" + post.accessibility_caption + "'>"
 
                         if(settings.link) {
-                            tempHtml = "<a href='https://www.instagram.com/p/"+ post.shortcode +"'>" + tempHtml + "</a>";
+                            tempHtml = "<a href='detail.html?postlovepmc="+ post.shortcode +"'>" + tempHtml + "</a>";
                         }
                     }
 
