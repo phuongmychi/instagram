@@ -377,14 +377,13 @@ var getUrlParameter = function getUrlParameter(sParam) {
             return false;
           }else if (url != undefined || url != '') {
             var pattern = new RegExp('https://www.instagram.com/p/(.+?)', 'g');
-
             // var regExp = /^\s*(http\:\/\/)?instagram\.com\/[a-z\d-_]{1,255}\s*$/i;
             var match = url.match(pattern);
            if (match && match[2].length == 11) {
              // $("#select").show();
              // $(".btnsb").html("<button class='btn btn-success'>Tải về</button>");
            } else {
-               $("#errors").html("Vui lòng nhập URL Instagram hợp lệ");
+               $("#errors").html("Vui lòng nhập URL  bài viết/ video Instagram hợp lệ");
                setTimeout(function(){
     		   document.getElementById("errors").innerHTML = " ";
     		  }, 1500);
