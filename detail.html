@@ -135,9 +135,9 @@
                     var urluser = "https://instagram.com/" + username;
                     var prt = "?__a=1";
                     var URLFULL = urluser + prt;
-                    $("#tit").append(`
-                  <p>${username} - ảnh và video trên instagram</p>
-                `)
+                    $("#userpmc").append(`
+                      <span>Thêm các bài viết từ : <strong>${username}</strong> </span>
+                    `)
                     if (cmmtnumber == 0) {
                         $("#errorcmt").append(`
                   <div class="alert alert-danger">
@@ -215,6 +215,10 @@
                     }
                     $(".info").append(`
               <p><span><img src='${pic}' class='rounded-circle' style='width:40px; height:40px;'/></span> <span style='cursor:pointer;' onclick="javascript:location.href='https://phuongmychi.github.io/instagram'">${username}</span> <span>${vefi}</span></p>
+
+              `)
+              $("#userbrand").append(`
+              <p><span><img src='${pic}' class='rounded-circle' style='width:30px; height:25px;'/></span> <span style='cursor:pointer;' onclick="javascript:location.href='https://phuongmychi.github.io/instagram'">${username}</span> <span>${vefi}</span></p>
 
               `)
 
@@ -307,6 +311,25 @@
 </head>
 
 <body>
+  <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
+        <a href="#" class="navbar-brand">
+        </a>
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav">
+                <a href="#" id='userbrand' class="nav-item nav-link active"></a>
+                <a href="https://phuongmychi.github.io" class="nav-item nav-link">Trang chủ</a>
+                <a href="https://instadl.github.io" class="nav-item nav-link">Insta Download</a>
+                <a href="#" class="nav-item nav-link disabled" tabindex="-1">Reports</a>
+            </div>
+            <div class="navbar-nav ml-auto">
+            </div>
+        </div>
+    </nav>
+<br>
     <header class="container1">
 
     </header>
@@ -333,7 +356,7 @@
 
         </div>
         <hr/>
-        <p class="badge badge-info">Xem thêm các bài viết khác : </p>
+        <p class="badge badge-info" id='userpmc'></p>
         <div class="row">
 
         </div>
